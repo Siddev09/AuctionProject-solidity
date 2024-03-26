@@ -128,6 +128,6 @@ contract Auction {
 //withdrawal pattern//
 
 //1)  we dont pro-actively send back the funds tp the users that didint win the auction we'll use the "withdrawal pattern"
-//2)  we should only send ETH to a user whrn he exlicitly request it
+//2)  we should only send ETH to a user when he explicitly request it
 //3)  this helps us avoiding re-entrance attacks that could cause unexpected behaviour including financial loss for the user
 //---------------------------------------------------------------------------------------------------------------------------------------------
