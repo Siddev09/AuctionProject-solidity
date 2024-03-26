@@ -41,7 +41,7 @@ contract Auction {
         startBlock = block.number;
         endBlock = startBlock + 40320;
         ipfsHash = "";
-        bidIncrement = 1000000000000000000;
+        bidIncrement = 1000000000000000000; //1 ETH
     }
 
     modifier notOwner() {
